@@ -1,0 +1,21 @@
+#Documentação do banco de dados
+
+##Glossário
+
+###Cor
+Cor predominante da roupa e detalhes
+
+###Corte
+Dirá se a roupa tem corte regular, oversized ou slim fit
+
+###Tamanho
+Define se a roupa ficará grande, pequena ou com tamanho certo
+
+###Modelo
+Diz se a roupa é lisa, listrada, de time, etc
+
+###Estilo
+Diz se a roupa é social, casual, esporte, etc
+
+###Tecido
+Diz qual é o tecido da roupa

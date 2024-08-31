@@ -1,0 +1,28 @@
+#Objetivo final
+Um programa que você selecione uma peça de roupa e ele dirá quais os outfits possíveis
+que combinem a roupa em questão.
+
+#Decomposição do problema
+##Database
+Criei uma database que possui 4 tabelas, sendo elas: camisas, calças, casacos e tênis.
+Desejo que de alguma forma elas se comuniquem, de forma que ao selecionar uma peça de roupa específica
+o banco conseguirá procurar outras peças de roupas em outras tabelas que combinem com ela e me mostre
+todas possibilidades de outfits com a determinada peça de roupa.
+
+##Front-End
+Criar uma interface de uso funcional com React em que existam x opções, sendo elas:
+###Escolha seu outfit
+Nessa opção, existirão 4 botões, sendo cada um deles para uma peça de roupa. Ao clicar em uma,
+todas roupas da determinada aparecerão, e ao topo da página, existirão filtros, no qual o usuário pode
+filtrar quais tipos de roupas ele quer que apareçam, por cor, estilo, corte, etc.
+Após escolher uma peça, o aplicativo lhe mostrará a tela seguinte já filtrando para aparecerem apenas
+as outras peças de roupa que combinem com a escolhida anteriormente, e assim sucessivamente até o outfit ficar
+pronto. Quando pronto, o aplicativo mostrará as roupas do oufit uma acima da outra, colocando casaco e camisa 
+um ao lado do outro.
+
+##Escolha uma peça e nós fazemos o resto
+usuário escolhe uma peça e o app mostra todas opções possíveis de outfit como uma toggle list sendo "outfit 1",
+"outfit 2" onde o usuário clica no nome, e o outfit aparece, e ao clicar em outro, o anterior fecha automáticamente
+
+##Me surpreenda
+O aplicativo mostrará diversos outfits
